@@ -1,4 +1,3 @@
-```cpp
 #include <iostream>
 #include <string>
 #include <algorithm>
@@ -268,4 +267,3 @@ int main() {
     start_quiz();
     return 0;
 }
-```

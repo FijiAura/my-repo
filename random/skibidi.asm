@@ -9,4 +9,4 @@ section	.text
 	add		esp,4
 	ret
 section	.data
-	msg:	db	"skibidi",0Ah,0
+	msg:	db	"skibidi toilet",0Ah,0

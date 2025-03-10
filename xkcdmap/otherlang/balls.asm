@@ -1,4 +1,3 @@
-nasm
 section .data
     ; Data section, initialized variables are put here.
     istanbul_or_constantinople db 'Istanbul or Constantinople?', 0
@@ -346,11 +345,3 @@ exit:
     mov eax, 1
     xor ebx, ebx
     int 0x80
-
-To assemble and run this code, you can use the following commands:
-
-```bash
-nasm -f elf32 quiz.asm -o quiz.o
-ld -m elf_i386 quiz.o -o quiz
-./quiz
-```
